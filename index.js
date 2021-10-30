@@ -13,11 +13,11 @@
 // let TWEEN    = Panolens.TWEEN;
 // let PANOLENS = Panolens.PANOLENS;
 
-import PANOLENS  from "./node_modules/panolens-three/dist/index.js";
-const THREE =  PANOLENS.THREE;
+// import PANOLENS  from "./node_modules/panolens-three/dist/index.js";
+// const THREE =  PANOLENS.THREE;
 
 console.log(THREE, PANOLENS);
 
-const panorama = new PANOLENS.ImagePanorama( 'asset/equirectangular.jpg' );
+const panorama = new PANOLENS.ImagePanorama( 'assets/001.jpg' );
 const viewer = new PANOLENS.Viewer();
 viewer.add( panorama );

@@ -32,7 +32,7 @@ images.forEach((image, key) => {
   // Directly pair panorama to previous
   if (key !== 0) {
     // THREE.Vector3( X, Y, Z )
-    panoramas[key - 1].link(panoramas[key], new THREE.Vector3(10, -30, 80), 8, arrow);//PANOLENS.DataImage.Arrow);
+    panoramas[key - 1].link(panoramas[key], new THREE.Vector3(-10, -30, -80), 8, arrow);//PANOLENS.DataImage.Arrow);
     panoramas[key].link(panoramas[key - 1], new THREE.Vector3(-10, -30, 80), 8, f);//PANOLENS.DataImage.Arrow);
     console.log(key, key - 1, 'linked');
   }

@@ -55,20 +55,20 @@ images.forEach((image, key) => {
   //   console.log(key, key - 1, 'linked');
   // }
 
-});
+})
 
-panoramas[0].link(panoramas[1], new THREE.Vector3(180, -80, 50), 8, arrow);
+// panoramas[0].link(panoramas[1], new THREE.Vector3(180, -80, 50), 8, arrow);
 
 
-
-panoramas[1].link(panoramas[0], new THREE.Vector3(-100, -30, 30), 8, f);
-panoramas[1].link(panoramas[2], new THREE.Vector3(-450, 0, 0), 8, arrow);
+// // panoramas[1].link(panoramas[0], new THREE.Vector3(0, -2680, 30), 8, f);
+// panoramas[1].link(panoramas[0], new THREE.Vector3(-100, -30, 30), 8, f);
+// panoramas[1].link(panoramas[2], new THREE.Vector3(-450, 0, 0), 8, arrow);
 
 // panoramas[2].link(panoramas[1], new THREE.Vector3(-10, -30, -80), 8, arrow);
 
 
-panoramas[2].link(panoramas[1], new THREE.Vector3(-10, -30, 80), 8, f);
-panoramas[2].link(panoramas[3], new THREE.Vector3(1, 1, 1), 8, arrow);
+// panoramas[2].link(panoramas[1], new THREE.Vector3(-10, -30, 80), 8, f);
+// panoramas[2].link(panoramas[3], new THREE.Vector3(5, 5, 5), 8, arrow);
 
 // panoramas[2].link(panoramas[0], new THREE.Vector3(-10, -30, 80), 8, f); //extra
 // panoramas[2].link(panoramas[1], new THREE.Vector3(-10, -30, 80), 8, f);

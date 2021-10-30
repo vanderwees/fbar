@@ -161,20 +161,6 @@ opener@^1.5.1:
   resolved "https://registry.yarnpkg.com/opener/-/opener-1.5.2.tgz#5d37e1f35077b9dcac4301372271afdeb2a13598"
   integrity sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==
 
-panolens-three@^1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/panolens-three/-/panolens-three-1.0.13.tgz#0b3dedc123f670f11054457a29db4813b3a6ff1e"
-  integrity sha512-1FXG/tNLCuV4S9AWsP5kmSEqCjs81LnaUZL3Y86Es9RGVcQ/bOT8Z7/JLLQkajIzgaELdn3DYAIyAXxKwsDatw==
-  dependencies:
-    three "^0.105.2"
-
-panolens@0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/panolens/-/panolens-0.12.0.tgz#0b9235fb723d7439f8dfa7e58ac743ef0b0389e0"
-  integrity sha512-Ni076KeNlKO8CcvXWOD+hHYnhwF6ZX7jwKshI2l9qDlpMRwURPIFk+G1Zqur0KAS9mbHNUJ96wyoHhu4Hwg/Wg==
-  dependencies:
-    three "^0.105.2"
-
 portfinder@^1.0.28:
   version "1.0.28"
   resolved "https://registry.yarnpkg.com/portfinder/-/portfinder-1.0.28.tgz#67c4622852bd5374dd1dd900f779f53462fac778"
@@ -219,11 +205,6 @@ side-channel@^1.0.4:
     call-bind "^1.0.0"
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
-
-three@0.105.2, three@^0.105.2:
-  version "0.105.2"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.105.2.tgz#d135f1549bdcf5a9acd904ba3dbf9198a0268984"
-  integrity sha512-L3Al37k4g3hVbgFFS251UVtIc25chhyN0/RvXzR0C+uIBToV6EKDG+MZzEXm9L2miGUVMK27W46/VkP6WUZXMg==
 
 union@~0.5.0:
   version "0.5.0"

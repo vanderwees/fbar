@@ -2,7 +2,7 @@
   "name": "fbar",
   "private": true,
   "scripts": {
-    "dev": "http-server src/"
+    "start": "http-server src/"
   },
   "dependencies": {
     "http-server": "^14.0.0"
